@@ -1,0 +1,18 @@
+SERVLET_CONTEXT_PATH: /
+SERVER_PORT: 8080
+
+#数据库配置
+MYSQL_HOST: localhost
+MYSQL_PORT: 3306
+MYSQL_USERNAME: root
+MYSQL_PASSWORD: root
+DATABASE: lowCode
+
+ENTITY_PATH: com.kang.entity
+MAPPER_PATH: classpath:mapper/*.xml
+
+#微信公众号接口
+WX_APP_ID: wxf1bb584abdf31eaa
+WX_SECRET: c7e6d4f97171a6fd1f0bf8e047969007
+WX_TOKEN: kang
+
